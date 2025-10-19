@@ -1,0 +1,167 @@
+[
+  {
+    "model": "your_app.service",
+    "pk": 1,
+    "fields": {
+      "id": "photo",
+      "name": "Photography",
+      "description": "Professional property photography",
+      "price": "250.00",
+      "icon": "Camera"
+    }
+  },
+  {
+    "model": "your_app.service",
+    "pk": 2,
+    "fields": {
+      "id": "video",
+      "name": "Video Tour",
+      "description": "Cinematic walkthrough video",
+      "price": "450.00",
+      "icon": "Video"
+    }
+  },
+  {
+    "model": "your_app.service",
+    "pk": 3,
+    "fields": {
+      "id": "3d-scan",
+      "name": "3D Scan",
+      "description": "Interactive 3D virtual tour",
+      "price": "350.00",
+      "icon": "Box"
+    }
+  },
+  {
+    "model": "your_app.service",
+    "pk": 4,
+    "fields": {
+      "id": "drone",
+      "name": "Drone Photography",
+      "description": "Aerial photography and video",
+      "price": "300.00",
+      "icon": "Plane"
+    }
+  },
+  {
+    "model": "your_app.service",
+    "pk": 5,
+    "fields": {
+      "id": "twilight",
+      "name": "Twilight Photos",
+      "description": "Stunning evening exterior shots",
+      "price": "200.00",
+      "icon": "Sunset"
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 1,
+    "fields": {
+      "id": "addon-agent-video",
+      "name": "Agent on Camera",
+      "description": "Feature the listing agent in the video tour",
+      "price": "150.00",
+      "applicable_services": ["video"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 2,
+    "fields": {
+      "id": "addon-voice-over",
+      "name": "Professional Voice Over",
+      "description": "Add professional narration to video tour",
+      "price": "100.00",
+      "applicable_services": ["video"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 3,
+    "fields": {
+      "id": "addon-music",
+      "name": "Custom Music",
+      "description": "Licensed background music for videos",
+      "price": "50.00",
+      "applicable_services": ["video"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 4,
+    "fields": {
+      "id": "addon-floorplan",
+      "name": "Floor Plan",
+      "description": "2D floor plan from photos or 3D scan",
+      "price": "75.00",
+      "applicable_services": ["photo", "3d-scan"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 5,
+    "fields": {
+      "id": "addon-virtual-staging",
+      "name": "Virtual Staging",
+      "description": "Digitally furnish empty rooms",
+      "price": "125.00",
+      "applicable_services": ["photo"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 6,
+    "fields": {
+      "id": "addon-photo-editing",
+      "name": "Advanced Editing",
+      "description": "Sky replacement, grass enhancement, etc.",
+      "price": "80.00",
+      "applicable_services": ["photo", "drone", "twilight"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 7,
+    "fields": {
+      "id": "addon-branded-tour",
+      "name": "Branded Virtual Tour",
+      "description": "Add custom branding to 3D tour",
+      "price": "100.00",
+      "applicable_services": ["3d-scan"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 8,
+    "fields": {
+      "id": "addon-measurements",
+      "name": "Room Measurements",
+      "description": "Display room dimensions in 3D tour",
+      "price": "50.00",
+      "applicable_services": ["3d-scan"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 9,
+    "fields": {
+      "id": "addon-drone-video",
+      "name": "Drone Video Clip",
+      "description": "Short aerial video footage",
+      "price": "100.00",
+      "applicable_services": ["drone"]
+    }
+  },
+  {
+    "model": "your_app.addonservice",
+    "pk": 10,
+    "fields": {
+      "id": "addon-social-media",
+      "name": "Social Media Package",
+      "description": "Optimized images for Instagram, Facebook",
+      "price": "60.00",
+      "applicable_services": ["photo", "video"]
+    }
+  }
+]
